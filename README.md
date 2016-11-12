@@ -1,12 +1,14 @@
 #springboot-sandbox-rest
 
 I. Create Project
+---
 
 Create new Spring starter project
 Select the web package.
 Check in pom.xml that jackson-databind is loaded.
 
 II. Create model
+---
 
 Create new package called "model"
 Create inside the package an object class called "Person" : 
@@ -46,6 +48,7 @@ public class Person {
 ```
 
 III. Create service
+---
 
 Create new package called "service"
 Create inside the package a class called "PersonService" :
@@ -85,6 +88,7 @@ public class PersonService {
 ```
 
 IV. Create controller
+---
 
 Create controller packageCreate inside the package a class called PersonController : 
 ```
@@ -110,6 +114,7 @@ public class PersonController {
 ```
 
 V. Try it
+---
 
 Run as > Spring boot app
 Connect to http://localhost:8080/persons/all
@@ -120,6 +125,7 @@ Result is :
 ```
 
 VI. Errors
+---
 "spring boot This application has no explicit mapping for /error, so you are seeing this as a fallback." > Make sure that your main class is in a root package above other classes.
 
 Source : https://www.youtube.com/watch?v=rPMt8GhZkA0
