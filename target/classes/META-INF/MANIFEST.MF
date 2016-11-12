@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: springboot-sandbox-rest
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Staelen
+Implementation-Vendor-Id: com.jvanhouteghem
+Build-Jdk: 1.8.0_77
+Implementation-URL: http://projects.spring.io/spring-boot/pringboot-sa
+ ndbox-rest/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
